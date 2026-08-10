@@ -18,11 +18,6 @@ import re
 
 import httpx
 import pytest
-
-# Skip bonus CI/CD tests in environments where GitHub Actions badge
-# access or secrets are not available (e.g., local runs).
-pytest.skip("Skipping bonus CI/CD tests in this environment", allow_module_level=True)
-
 import yaml
 
 WORKFLOW_DIR = ".github/workflows"
