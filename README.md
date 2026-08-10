@@ -1,5 +1,4 @@
-![CI](https://github.com/<username>/<tên-repo>/actions/workflows/ci.yml/badge.svg)
-
+![CI](https://github.com/Khoa15/K4-Day12-2A202601964-NguyenTrongDangKhoa/actions/workflows/ci-render.yml/badge.svg)
 # K4 — Ngày 12: Hạ Tầng Cloud & Deployment (14h00–18h00)
 
 
