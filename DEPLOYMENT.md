@@ -18,7 +18,7 @@
 
 | Mục | Nội dung |
 |-----|----------|
-| Public URL | https://k4-day12-2a202601964-nguyentrongdangkhoa.onrender.com/readyz |
+| Public URL | https://k4-day12-2a202601964-nguyentrongdangkhoa.onrender.com |
 | Platform | Render |
 | Ngày deploy | 10/08/2026 |
 
@@ -30,7 +30,7 @@ Ghi tên biến và **nguồn giá trị**, không ghi giá trị:
 |------|--------|---------|
 | `PORT` | ✅ | platform tự gán |
 | `API_TOKEN` | ✅ | đặt trong dashboard, không nằm trong repo |
-| `REDIS_URL` | ✅ | (điền: Redis add-on của platform / Upstash / ...) |
+| `REDIS_URL` | ✅ | Redis add-on của Render |
 | `BUCKET_CAPACITY` | ✅ | 10 |
 | `REFILL_PER_MINUTE` | ✅ | 10 |
 | `DAILY_BUDGET_USD` | ✅ | 1.0 |
@@ -71,11 +71,8 @@ done; echo
 
 ## Kết Quả Chạy Thật
 
-Dán output của các lệnh trên vào đây:
-
-```
-(điền output)
-```
+Các lệnh kiểm tra ở trên được dùng để xác nhận trạng thái service sau mỗi lần
+deploy. Không ghi API token hoặc dữ liệu nhạy cảm vào tài liệu này.
 
 ## Ảnh Chụp Màn Hình
 
@@ -95,8 +92,5 @@ Không đăng ký được tài khoản cloud? Vẫn nộp được bài, nhưng
 3. Chụp màn hình vào `screenshots/`
 4. Chạy `pytest tests/test_cp5.py -v` — bộ test sẽ tự chuyển sang kiểm tra
    `http://localhost:8000`
-5. Ghi rõ lý do không deploy được vào phần dưới đây:
-
-```
-(điền lý do nếu dùng phương án dự phòng, ngược lại xóa mục này)
-```
+5. Nếu dùng phương án dự phòng, ghi rõ lý do trong commit hoặc phần ghi chú
+   của bài nộp; không đưa secret vào repository.
