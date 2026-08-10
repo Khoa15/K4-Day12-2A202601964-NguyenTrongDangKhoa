@@ -6,7 +6,7 @@
 gọi được, có bảo mật, có giới hạn chi phí, và không sập khi bạn deploy bản mới.
 
 **Public service:** https://day12-chat-1zke.onrender.com
-
+**Repo**: https://github.com/Khoa15/K4-Day12-2A202601964-NguyenTrongDangKhoa
 ---
 
 ## ⚠️ Bài Làm Cá Nhân
